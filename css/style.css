@@ -1,0 +1,61 @@
+.header-fixed {
+	position: fixed;
+	padding: 0 70px;
+}
+
+.fp-tableCell {
+	padding-top: 160px !important;
+	vertical-align: inherit!important;
+}
+
+.latest-news {
+	padding-top: 0;
+}
+
+@media (max-width: 1465px) {
+	.latest-news .large-blocks .block .img {
+	    max-width: 585px;
+	    width: 100%;
+	}
+	.latest-news .large-blocks .block .img img {
+		object-fit: cover;
+	}
+}
+
+.latest-news .socials-row {
+	position: static;
+	padding: 0;
+}
+
+
+.costumers .socials-row {
+	position: static;
+	padding: 0;
+	padding-top: 50px;
+}
+
+.latest-news .fp-scroller {
+	padding-bottom: 200px!important;
+}
+
+@media (max-width: 1555px) {
+	.latest-news .scroll-down,
+	.costumers .scroll-down {
+	    left: -70px;
+	    height: calc(100% + 160px);
+	    top: auto;
+	    bottom: 0;
+	}
+	.latest-news .fp-tableCell,
+	.costumers .fp-tableCell {
+		position: static;
+	}
+	.latest-news .fp-scrollable,
+	.costumers .fp-scrollable {
+		overflow: visible;
+	}
+	.latest-news .fp-scroller,
+	.costumers .fp-scroller {
+		overflow: visible;
+	}
+}
